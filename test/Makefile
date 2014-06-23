@@ -35,7 +35,7 @@ test_poly_mul_INCFLAGS = -I$(TOPDIR)/src
 
 # Shared library files.
 ifeq ($(UNAME), Darwin)
-NTRUEncryptlib := $(LIBDIR)/libNTRUEncrypt.dynlib
+NTRUEncryptlib := $(LIBDIR)/libNTRUEncrypt.dylib
 else
 NTRUEncryptlib := $(LIBDIR)/libNTRUEncrypt.so
 endif
